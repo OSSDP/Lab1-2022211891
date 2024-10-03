@@ -10,7 +10,7 @@ def convert_angle(angle):
 def upload_file():
 
 
-    plt.rcParams['font.sans-serif'] = ['KaiTi']  # 指定默认字体
+    plt.rcParams['font.sans-serif'] = ['KaiTi']  # 指定一个字体
     plt.rcParams['axes.unicode_minus'] = False  # 解决保存图像是负号'-'显示为方块的问题
     current_path = os.path.dirname(__file__)
     excel_file_path = os.path.join(current_path, f'127.0.0.1.xlsx')
