@@ -23,7 +23,7 @@ def download_excel():
 
 @app.route('/writetomain', methods=['POST'])
 def write_to_excel():
-    # 获取POST请求中的参数
+    # 获取请求
     x = request.form.get('x', type=int)
     y = request.form.get('y', type=int)
     value = request.form.get('value')
