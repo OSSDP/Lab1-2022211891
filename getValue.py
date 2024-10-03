@@ -39,6 +39,9 @@ def cal(i, j, l,alpha,beta):
     print(i)
     print(j)
     print(l)
+    print(i)
+    print(j)
+    print(l)
     print(symbols)
     eqs = [
         sp.sin(alpha) * sp.sin(beta) - k * sp.sin(theta) * sp.cos(phi),
